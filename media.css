@@ -1,0 +1,40 @@
+@media(max-width:1140px) {
+  .intro{
+      height: 600px;
+  }
+}
+@media(max-width:1000px) {
+  .intro{
+      height: 550px;
+  }
+}
+@media(max-width:950px) {
+  .intro{
+      height: 500px;
+  }
+}
+@media(max-width:900px) {
+  .intro{
+      height: 450px;
+  }
+}
+@media(max-width:850px) {
+  .intro{
+      height: 400px;
+  }
+}
+@media(max-width:800px) {
+  .intro{
+      height: 350px;
+  }
+}
+@media(max-width:750px) {
+  .intro{
+      height: 300px;
+  }
+}
+@media(max-width:700px) {
+  .intro{
+      height: 250px;
+  }
+}
