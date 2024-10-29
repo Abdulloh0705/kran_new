@@ -32,7 +32,7 @@ padding-top: 15px;
 }
 .kran_title{
   transform: translateX(-1600%);
-  transition: transform 2s ease, opacity 3s ease;
+  transition: transform 2s ease, opacity 1s ease;
   position: relative;
 }
 .kran_text{
@@ -59,7 +59,7 @@ padding-top: 15px;
 }
 .kran_img{
   transform: translateX(1600%);
-  transition: transform 4s ease, opacity 3s ease;
+  transition: transform 2s ease, opacity 1s ease;
   position: relative;
 }
 .kran_str{
@@ -70,12 +70,20 @@ padding-top: 15px;
   align-items: center;
   justify-content: center;
   padding: 20px;
+  margin: 10px;
 }
 .info_title{
   color: #e5e7eb;
   text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.07);
   opacity: 0.8;
   padding: 25px 20px 15px 15px;
+}
+.info_title1{
+  color: #e5e7eb;
+  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.07);
+  opacity: 0.8;
+  padding: 25px 20px 15px 15px;
+  max-width: 100px;
 }
 .call{
   padding: 25px;
@@ -96,6 +104,15 @@ margin: 10px auto;
   border-radius: 9%;
 }
 .kran_infos{
+  display: flex;
+}
+.call{
+  max-width: 100px;
+}
+.insta{
+  max-width: 26px;
+}
+.web{
   display: flex;
 }
 
