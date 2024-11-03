@@ -115,4 +115,16 @@ margin: 10px auto;
 .web{
   display: flex;
 }
+.teg_img{
+  max-width: 33px;
+}
+.tik_img{
+  max-width: 33px;
+}
+.you_img{
+  max-width: 75px;
+}
+.intro_link4{
+  max-width: 10px;
+}
 
